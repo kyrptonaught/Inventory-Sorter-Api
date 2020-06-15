@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "inventorysorterapi",
-  "version": "1.0.0",
+  "version": "b4",
   "name": "Inventory Sorter",
   "description": "Quickly and easily sort inventorys",
   "authors": [
@@ -14,23 +14,6 @@
   "license": "MIT",
   "icon": "assets/inventorysorter/icon.png",
   "environment": "*",
-  "mixins": [
-    {
-      "config": "net.kyrptonaught.inventorysorter.json",
-      "environment": "client"
-    }
-  ],
-  "entrypoints": {
-    "main": [
-      "net.kyrptonaught.inventorysorter.InventorySorterMod"
-    ],
-    "client": [
-      "net.kyrptonaught.inventorysorter.InventorySorterMod"
-    ],
-    "modmenu": [
-      "net.kyrptonaught.inventorysorter.client.modmenu.ModMenuIntegration"
-    ]
-  },
   "depends": {
     "fabricloader": ">=0.4.0",
     "fabric": "*"

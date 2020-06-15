@@ -1,4 +1,4 @@
-package net.kyrptonaught.inventorysorter;
+package net.kyrptonaught.inventorysorterapi;
 
 import net.minecraft.inventory.Inventory;
 
